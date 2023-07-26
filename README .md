@@ -24,7 +24,7 @@ To use the app, follow these steps:
 
 ```kotlin
 
-const val BASE\_URL = "https://your-immigrant-management-system-backend.com/api/"
+const val BASE\_URL = "https://immigrants-management-system.onrender.com"
 
 ```
 
