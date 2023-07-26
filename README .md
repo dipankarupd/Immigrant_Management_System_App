@@ -53,7 +53,7 @@ The Immigrant-Management-System frontend is licensed under the [MIT License](LIC
 
 ## Contact
 
-For any inquiries or questions, please feel free to contact the development team at [your-email@example.com](mailto:drud17@gmail.com).
+For any inquiries or questions, please feel free to contact the development team at [here](mailto:drud17@gmail.com).
 
 ---
 
