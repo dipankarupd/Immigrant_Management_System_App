@@ -28,7 +28,7 @@ const val BASE\_URL = "https://immigrants-management-system.onrender.com"
 
 ```
 
-1. Install any required dependencies by syncing the project.
+1. Install all required dependencies by syncing the project.
 
 1. Run the app on your device or emulator to start using the Immigrant-Management-System frontend.
 
