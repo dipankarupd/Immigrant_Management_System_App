@@ -2,6 +2,8 @@ package com.example.immigrantmanagementsystem.view.user.util
 
 import androidx.compose.material.*
 import androidx.compose.runtime.*
+import androidx.compose.ui.res.stringArrayResource
+import com.example.immigrantmanagementsystem.R
 
 
 @OptIn(ExperimentalMaterialApi::class)
@@ -11,7 +13,7 @@ fun CountryField(): String{
         mutableStateOf(false)
     }
 
-    val items = listOf("a","b","c","d","e","f")
+    val items = stringArrayResource(R.array.countries_array)
 
     var selectedOptionText by remember {
         mutableStateOf(items[0])

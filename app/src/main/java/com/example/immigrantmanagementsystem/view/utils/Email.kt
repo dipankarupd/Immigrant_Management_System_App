@@ -4,6 +4,8 @@ package com.example.immigrantmanagementsystem.view.utils
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
+import android.util.Log
+import android.widget.Toast
 import com.example.immigrantmanagementsystem.data.NotificationDataItem
 import com.example.immigrantmanagementsystem.network.notification.fetchNotificationsFromServer
 
@@ -18,7 +20,8 @@ fun sendEmail(email: String, ctx: Context) {
             }
         },
         onError = { errorMessage ->
-            // Handle the error here, e.g., show an error toast or log the error message
+            Log.d("mailno", errorMessage.toString())
+            Toast.makeText(ctx, "Could not send email at the moment", Toast.LENGTH_SHORT).show()
         }
     )
 }
