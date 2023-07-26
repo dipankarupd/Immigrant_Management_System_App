@@ -1,16 +1,16 @@
-﻿\# Frontend Design for Immigrant-Management-System
+# Frontend Design for Immigrant-Management-System
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 This repository contains the frontend design for the Immigrant-Management-System Android app. The app is built using Jetpack Compose, Volley library, and Kotlin Coroutines to provide a modern and efficient user interface for managing immigrants.
 
-\## Backend Code
+## Backend Code
 
 For the backend implementation of the Immigrant-Management-System, please refer to the following repository:
 
 [Immigrant-Management-System Backend](https://github.com/dipankarupd/Immigrants-Management-System-Backend)
 
-\## Getting Started
+## Getting Started
 
 To use the app, follow these steps:
 
@@ -22,17 +22,17 @@ To use the app, follow these steps:
 
 1. Review the `Constants.kt` file located at `app/src/main/java/com/example/immigrantmanagementsystem/view/utils/Constants.kt`. Make sure the `BASE\_URL` constant is set to the correct URL of the backend API.
 
-\```kotlin
+```kotlin
 
 const val BASE\_URL = "https://your-immigrant-management-system-backend.com/api/"
 
-\```
+```
 
 1. Install any required dependencies by syncing the project.
 
 1. Run the app on your device or emulator to start using the Immigrant-Management-System frontend.
 
-\## Dependencies
+## Dependencies
 
 Ensure all dependencies for the project are added correctly. The primary dependencies used are:
 
@@ -43,18 +43,18 @@ Ensure all dependencies for the project are added correctly. The primary depende
 
 These dependencies are managed through the `build.gradle` files.
 
-\## Contributions
+## Contributions
 
 Contributions to the Immigrant-Management-System frontend are welcome! If you encounter any issues or have suggestions for improvements, please create a new issue or submit a pull request.
 
-\## License
+## License
 
 The Immigrant-Management-System frontend is licensed under the [MIT License](LICENSE).
 
-\## Contact
+## Contact
 
 For any inquiries or questions, please feel free to contact the development team at [your-email@example.com](mailto:drud17@gmail.com).
 
-\---
+---
 
 
